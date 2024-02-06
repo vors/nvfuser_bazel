@@ -15,7 +15,7 @@ py_test(
     main = ":__test__.py",
     deps = [
         ":__test__",
-        "@pypi//nvfuser:pkg",
+        "@@pypi//nvfuser_cu121_torch21:pkg",
         "@pypi//torch:pkg",
     ],
 )
