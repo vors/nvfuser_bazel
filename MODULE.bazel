@@ -15,5 +15,9 @@ pip.parse(
     requirements_lock = "//:requirements.txt",
     # the less messing around with __init__.py files the better
     enable_implicit_namespace_pkgs = True,
+    extra_pip_args = [
+        "--extra-index-url", 
+        "https://pypi.nvidia.com",
+    ],
 )
 use_repo(pip, "pypi")
