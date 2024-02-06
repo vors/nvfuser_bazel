@@ -1,0 +1,6 @@
+bazel-bin
+bazel-openai
+bazel-testlogs
+bazel-out
+
+MODULE.bazel.lock

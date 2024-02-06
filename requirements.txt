@@ -1,0 +1,2 @@
+nvfuser-cu121-torch21==0.1.5.dev20240206
+torch==2.1.0
